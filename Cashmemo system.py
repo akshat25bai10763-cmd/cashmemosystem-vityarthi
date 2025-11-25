@@ -1,6 +1,6 @@
 import customer
 
-#def cashmemo():
+def cashmemo():
 a=input("Enter Shop Name:")
 n=int(input("Enter invoice number:"))
 v=int(input("Enter total number of items to be billed:"))
@@ -33,4 +33,5 @@ for j in range(v):
         print("------------------------")
     
 
-#cashmemo()
+
+cashmemo()
